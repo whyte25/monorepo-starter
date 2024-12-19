@@ -1,0 +1,5 @@
+{
+  "extends": "@through-motion/typescript-config/nextjs.json",
+  "include": ["**/*.ts", "**/*.tsx", "/**/*", "**/*", "/src/**/*"],
+  "exclude": ["dist", "build", "node_modules"]
+}

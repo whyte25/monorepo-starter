@@ -1,0 +1,18 @@
+{
+  "name": "@through-motion/config",
+  "version": "0.1.0",
+  "private": true,
+  "sideEffects": false,
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@through-motion/eslint-config": "workspace:*",
+    "@through-motion/typescript-config": "workspace:*",
+    "@types/node": "^20.11.30",
+    "typescript": "^5.0.4"
+  }
+}
