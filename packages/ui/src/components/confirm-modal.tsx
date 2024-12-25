@@ -1,8 +1,7 @@
 "use client";
 
-import { cn } from "@workspace/lib";
+import { cn } from "@reusables/lib";
 import { Trash2 } from "lucide-react";
-import React from "react";
 import { Button } from "./button";
 import { Modal } from "./modal";
 import { SubmitButton } from "./submit-button";

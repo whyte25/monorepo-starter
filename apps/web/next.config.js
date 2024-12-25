@@ -2,11 +2,11 @@
 module.exports = {
   reactStrictMode: true,
   transpilePackages: [
-    "@workspace/ui",
-    "@workspace/lib",
-    "@workspace/provider",
-    "@workspace/config",
-    "@workspace/assets",
-    "@workspace/hooks",
+    "@reusables/ui",
+    "@reusables/lib",
+    "@reusables/provider",
+    "@reusables/config",
+    "@reusables/assets",
+    "@reusables/hooks",
   ],
 };

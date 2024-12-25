@@ -1,7 +1,6 @@
-import { SuccessIcon } from "@workspace/assets/icons";
-import { cn } from "@workspace/lib";
+import { SuccessIcon } from "@reusables/assets/icons";
+import { cn } from "@reusables/lib";
 import Image, { StaticImageData } from "next/image";
-import React from "react";
 import { Button } from "./button";
 import { Modal } from "./modal";
 

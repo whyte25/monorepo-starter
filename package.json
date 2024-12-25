@@ -1,5 +1,5 @@
 {
-  "name": "throughmotion",
+  "name": "reusables",
   "private": true,
   "scripts": {
     "preinstall": "node ./check-pnpm.ts",

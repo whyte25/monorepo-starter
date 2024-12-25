@@ -5,7 +5,7 @@ import { Command as CommandPrimitive } from "cmdk";
 import { Search } from "lucide-react";
 import * as React from "react";
 
-import { cn } from "@workspace/lib";
+import { cn } from "@reusables/lib";
 import { Dialog, DialogContent } from "./dialog";
 
 const Command = React.forwardRef<
@@ -143,13 +143,14 @@ const CommandShortcut = ({
 CommandShortcut.displayName = "CommandShortcut";
 
 export {
-  Command,
-  CommandDialog,
-  CommandEmpty,
-  CommandGroup,
-  CommandInput,
-  CommandItem,
-  CommandList,
-  CommandSeparator,
-  CommandShortcut,
+    Command,
+    CommandDialog,
+    CommandEmpty,
+    CommandGroup,
+    CommandInput,
+    CommandItem,
+    CommandList,
+    CommandSeparator,
+    CommandShortcut
 };
+

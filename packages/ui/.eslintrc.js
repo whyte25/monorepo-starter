@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@workspace/eslint-config/react.js"],
+  extends: ["@reusables/eslint-config/react.js"],
 };

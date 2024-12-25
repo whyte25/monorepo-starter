@@ -94,8 +94,8 @@ To use a shared package in an app, add it to the app's `package.json`:
 ```json
 {
   "dependencies": {
-    "@workspace/ui": "workspace:*",
-    "@workspace/config": "workspace:*"
+    "@reusables/ui": "workspace:*",
+    "@reusables/config": "workspace:*"
   }
 }
 ```
@@ -105,12 +105,12 @@ Then run `pnpm install` to link the packages.
 To use the package, for example to use UI component will look like this:
 
 ```
-import { Button } from '@workspace/ui/button'
+import { Button } from '@reusables/ui/button'
 ```
 
 ## Renaming Packages
 
-To use this monorepo for your own project, you'll want to rename the packages to match your project's scope. This can be done by updating the `name` field in the `package.json` file of each package. For example, you might change `@workspace/ui` to `@your-project/ui`. You should also update the import paths in your code to reflect these changes.
+To use this monorepo for your own project, you'll want to rename the packages to match your project's scope. This can be done by updating the `name` field in the `package.json` file of each package. For example, you might change `@reusables/ui` to `@your-project/ui`. You should also update the import paths in your code to reflect these changes.
 
 ## Why pnpm and Turborepo?
 

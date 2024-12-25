@@ -1,6 +1,6 @@
 // tailwind config is required for editor support
 
-import sharedConfig from "@workspace/ui/tailwind.base";
+import sharedConfig from "@reusables/ui/tailwind.base";
 import type { Config } from "tailwindcss";
 
 const config: Pick<Config, "content" | "presets" | "plugins"> = {

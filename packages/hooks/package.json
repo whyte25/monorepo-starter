@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/hooks",
+  "name": "@reusables/hooks",
   "version": "0.1.0",
   "private": true,
   "sideEffects": false,
@@ -12,8 +12,8 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@reusables/eslint-config": "workspace:*",
+    "@reusables/typescript-config": "workspace:*",
     "@types/react": "^18.2.61",
     "typescript": "5.5.4"
   },
