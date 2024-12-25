@@ -1,6 +1,6 @@
-# Through-motion Frontend Monorepo
+# Monorepo Starter
 
-Welcome to the through-motion frontend monorepo! This project uses pnpm workspaces and Turborepo to manage multiple Next.js applications and shared packages in a single repository.
+Welcome to the monorepo starter! This project uses pnpm workspaces and Turborepo to manage multiple Next.js applications and shared packages in a single repository. It uses Tailwind CSS and Shadcn/ui for styling.
 
 ## Overview
 
@@ -10,7 +10,7 @@ This monorepo contains:
 - Shared packages (UI components, configurations, etc.)
 - Unified build and development setup
 
-The goal is to keep all through-motion frontend-related projects in one place, making development and maintenance easier.
+The goal is to keep all frontend-related projects in one place, making development and maintenance easier.
 
 ## Getting Started
 
@@ -43,6 +43,7 @@ The goal is to keep all through-motion frontend-related projects in one place, m
   - `eslint-config/`: ESLint configurations
   - `typescript-config/`: TypeScript configurations
   - `lib/`: Shared utilities and functions
+  - `hooks/`: Shared hooks.
   - `providers/`: Shared providers (e.g., React Query, Tooltip)
 
 ## Development
@@ -107,6 +108,10 @@ To use the package, for example to use UI component will look like this:
 import { Button } from '@workspace/ui/button'
 ```
 
+## Renaming Packages
+
+To use this monorepo for your own project, you'll want to rename the packages to match your project's scope. This can be done by updating the `name` field in the `package.json` file of each package. For example, you might change `@workspace/ui` to `@your-project/ui`. You should also update the import paths in your code to reflect these changes.
+
 ## Why pnpm and Turborepo?
 
 - **pnpm**: Efficient package management, perfect for monorepos. It saves disk space and speeds up installation. [Learn more about pnpm](https://pnpm.io/)
@@ -117,7 +122,5 @@ import { Button } from '@workspace/ui/button'
 If you encounter any issues:
 Clean and reinstall dependencies: `pnpm clean && pnpm install`,
 This might fix the issue.
-
-Remember, we're all working together to build amazing product called through-motion.
 
 Happy coding!
