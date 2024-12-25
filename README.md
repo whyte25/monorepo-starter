@@ -1,6 +1,6 @@
 # Monorepo Starter
 
-Welcome to the monorepo starter! This project uses pnpm workspaces and Turborepo to manage multiple Next.js applications and shared packages in a single repository. It uses Tailwind CSS and Shadcn/ui for styling.
+Welcome to the monorepo starter! This project uses pnpm workspaces and Turborepo to manage multiple Next.js applications and shared packages in a single repository. It uses Tailwind CSS styling and Shadcn/ui components.
 
 ## Overview
 
