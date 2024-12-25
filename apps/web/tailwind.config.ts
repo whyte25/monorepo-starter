@@ -1,6 +1,6 @@
 // tailwind config is required for editor support
 
-import sharedConfig from "@through-motion/ui/tailwind.base";
+import sharedConfig from "@workspace/ui/tailwind.base";
 import type { Config } from "tailwindcss";
 
 const config: Pick<Config, "content" | "presets" | "plugins"> = {
@@ -13,7 +13,6 @@ const config: Pick<Config, "content" | "presets" | "plugins"> = {
     "./src/features/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   presets: [sharedConfig],
-  plugins: [require("@tailwindcss/typography")],
 };
 
 export default config;

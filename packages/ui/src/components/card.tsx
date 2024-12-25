@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { cn } from "@through-motion/lib";
+import { cn } from "@workspace/lib";
 
 const Card = React.forwardRef<
   HTMLDivElement,

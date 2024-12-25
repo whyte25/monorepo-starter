@@ -1,5 +1,5 @@
 {
-  "name": "@through-motion/provider",
+  "name": "@workspace/provider",
   "version": "0.1.0",
   "private": true,
   "sideEffects": false,
@@ -9,14 +9,14 @@
     ".": "./index.tsx"
   },
   "dependencies": {
-    "@through-motion/ui": "workspace:*"
+    "@workspace/ui": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@through-motion/eslint-config": "workspace:*",
-    "@through-motion/typescript-config": "workspace:*",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
     "@types/react": "^18.2.61",
     "typescript": "5.5.4"
   }

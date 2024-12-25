@@ -1,6 +1,6 @@
-import { siteConfig } from "@through-motion/config";
-import { AppProvider } from "@through-motion/provider";
-import "@through-motion/ui/styles.css";
+import { siteConfig } from "@workspace/config";
+import { AppProvider } from "@workspace/provider";
+import "@workspace/ui/styles.css";
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
@@ -27,20 +27,20 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    // images: [
-    //   {
-    //     url: siteConfig.ogImage,
-    //     width: 1200,
-    //     height: 630,
-    //     alt: siteConfig.name,
-    //   },
-    // ],
+    images: [
+      {
+        url: siteConfig.ogImage,
+        width: 1200,
+        height: 630,
+        alt: siteConfig.name,
+      },
+    ],
   },
   twitter: {
     card: "summary_large_image",
     title: siteConfig.title,
     description: siteConfig.description,
-    // images: [siteConfig.ogImage],
+    images: [siteConfig.ogImage],
     creator: `@${siteConfig.title.toLocaleLowerCase()}`,
   },
   icons: {

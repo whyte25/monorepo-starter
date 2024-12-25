@@ -1,6 +1,6 @@
 "use client";
-import { LogoIcon1, LogoIcon2 } from "@through-motion/assets/icons";
-import { cn } from "@through-motion/lib";
+import { LogoIcon1, LogoIcon2 } from "@workspace/assets/icons";
+import { cn } from "@workspace/lib";
 import Image from "next/image";
 import Link from "next/link";
 

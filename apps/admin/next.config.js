@@ -2,10 +2,11 @@
 module.exports = {
   reactStrictMode: true,
   transpilePackages: [
-    "@through-motion/ui",
-    "@through-motion/lib",
-    "@through-motion/provider",
-    "@through-motion/config",
-    "@through-motion/assets",
+    "@workspace/ui",
+    "@workspace/lib",
+    "@workspace/provider",
+    "@workspace/config",
+    "@workspace/assets",
+    "@workspace/hooks",
   ],
 };

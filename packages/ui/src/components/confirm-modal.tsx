@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@through-motion/lib";
+import { cn } from "@workspace/lib";
 import { Trash2 } from "lucide-react";
 import React from "react";
 import { Button } from "./button";

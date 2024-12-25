@@ -3,7 +3,7 @@
 import * as React from "react";
 import { Drawer as DrawerPrimitive } from "vaul";
 
-import { cn } from "@through-motion/lib";
+import { cn } from "@workspace/lib";
 
 const Drawer = ({
   shouldScaleBackground = true,

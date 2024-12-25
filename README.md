@@ -93,8 +93,8 @@ To use a shared package in an app, add it to the app's `package.json`:
 ```json
 {
   "dependencies": {
-    "@through-motion/ui": "workspace:*",
-    "@through-motion/config": "workspace:*"
+    "@workspace/ui": "workspace:*",
+    "@workspace/config": "workspace:*"
   }
 }
 ```
@@ -104,7 +104,7 @@ Then run `pnpm install` to link the packages.
 To use the package, for example to use UI component will look like this:
 
 ```
-import { Button } from '@through-motion/ui/button'
+import { Button } from '@workspace/ui/button'
 ```
 
 ## Why pnpm and Turborepo?

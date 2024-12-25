@@ -1,4 +1,4 @@
-import { cn } from "@through-motion/lib";
+import { cn } from "@workspace/lib";
 
 function Skeleton({
   className,

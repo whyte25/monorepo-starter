@@ -1,16 +1,15 @@
 export const siteConfig = {
-  title: "throughmotion",
-  name: "throughmotion",
-  url: "https://throughmotion-web.netlify.app/",
-  // ogImage: "https://ik.imagekit.io/ltrteacsu/Hero.png?tr=w-2000",
-  description: "Discover, explore, and rediscover music like never before",
-  keywords: ["Studio", "Beats"],
+  title: "Demo Title",
+  name: "Demo Name",
+  url: "https://demo-url.com",
+  ogImage: "https://demo-image.com/image.png",
+  description: "This is a demo description.",
+  keywords: ["demo", "placeholder"],
   links: {
-    twitter: "https://x.com/progfamsTech",
-    linkedin: "https://www.linkedin.com/in/progfams-technology-2530a8314",
-    instagram: "https://www.instagram.com/progfamsTech/",
-    facebook:
-      "https://www.facebook.com/profile.php?id=61561059243970&mibextid=ZbWKwL",
+    twitter: "https://demo-twitter.com",
+    linkedin: "https://demo-linkedin.com",
+    instagram: "https://demo-instagram.com",
+    facebook: "https://demo-facebook.com",
   },
 };
 

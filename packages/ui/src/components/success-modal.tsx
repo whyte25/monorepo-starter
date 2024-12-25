@@ -1,5 +1,5 @@
-import { SuccessIcon } from "@through-motion/assets/icons";
-import { cn } from "@through-motion/lib";
+import { SuccessIcon } from "@workspace/assets/icons";
+import { cn } from "@workspace/lib";
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 import { Button } from "./button";

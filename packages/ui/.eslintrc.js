@@ -1,3 +1,3 @@
 module.exports = {
-  extends: ["@through-motion/eslint-config/react.js"],
+  extends: ["@workspace/eslint-config/react.js"],
 };

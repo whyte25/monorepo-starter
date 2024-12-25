@@ -1,9 +1,7 @@
-// tailwind config is required for editor support
-
-import sharedConfig from "@through-motion/ui/tailwind.base";
+import sharedConfig from "@workspace/ui/tailwind.base";
 import type { Config } from "tailwindcss";
 
-const config: Pick<Config, "content" | "presets"> = {
+const config: Pick<Config, "content" | "presets" | "plugins"> = {
   content: [
     "../../packages/ui/components/**/*.{js,ts,jsx,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
