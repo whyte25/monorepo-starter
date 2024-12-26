@@ -1,5 +1,5 @@
 {
-  "name": "reusables",
+  "name": "workspace",
   "private": true,
   "scripts": {
     "preinstall": "node ./check-pnpm.ts",

@@ -3,7 +3,7 @@
 import * as PopoverPrimitive from "@radix-ui/react-popover";
 import * as React from "react";
 
-import { cn } from "@reusables/lib";
+import { cn } from "@workspace/lib";
 
 const Popover = PopoverPrimitive.Root;
 

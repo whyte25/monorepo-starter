@@ -1,4 +1,4 @@
-import { cn } from "@reusables/lib";
+import { cn } from "@workspace/lib";
 
 function Skeleton({
   className,

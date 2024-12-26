@@ -1,6 +1,6 @@
 "use client";
-import { LogoIcon1, LogoIcon2 } from "@reusables/assets/icons";
-import { cn } from "@reusables/lib";
+import { LogoIcon1, LogoIcon2 } from "@workspace/assets/icons";
+import { cn } from "@workspace/lib";
 import Image from "next/image";
 import Link from "next/link";
 

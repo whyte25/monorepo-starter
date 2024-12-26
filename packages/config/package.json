@@ -1,5 +1,5 @@
 {
-  "name": "@reusables/config",
+  "name": "@workspace/config",
   "version": "0.1.0",
   "private": true,
   "sideEffects": false,
@@ -10,8 +10,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@reusables/eslint-config": "workspace:*",
-    "@reusables/typescript-config": "workspace:*",
+    "@workspace/eslint-config": "workspace:*",
+    "@workspace/typescript-config": "workspace:*",
     "@types/node": "^20.11.30",
     "typescript": "^5.0.4"
   }
