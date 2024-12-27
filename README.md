@@ -2,6 +2,17 @@
 
 Welcome to the monorepo starter! This project uses pnpm workspaces and Turborepo to manage multiple Next.js applications and shared packages in a single repository. It uses Tailwind CSS styling and Shadcn/ui components.
 
+## Why pnpm and Turborepo?
+
+- **pnpm**: Efficient package management, perfect for monorepos. It saves disk space and speeds up installation. [Learn more about pnpm](https://pnpm.io/)
+- **Turborepo**: Optimizes build times by caching and parallel execution. It only rebuilds what's necessary, improving developer experience. [Learn more about Turborepo](https://turbo.build/repo)
+
+
+## Renaming Packages
+
+To use this monorepo for your own project, you'll want to rename the packages to match your project's scope. This can be done by updating the `name` field in the `package.json` file of each package. For example, you might change `@workspace/ui` to `@your-project/ui`. You should also update the import paths in your code to reflect these changes.
+
+
 ## Overview
 
 This monorepo contains:
@@ -108,14 +119,6 @@ To use the package, for example to use UI component will look like this:
 import { Button } from '@workspace/ui/button'
 ```
 
-## Renaming Packages
-
-To use this monorepo for your own project, you'll want to rename the packages to match your project's scope. This can be done by updating the `name` field in the `package.json` file of each package. For example, you might change `@workspace/ui` to `@your-project/ui`. You should also update the import paths in your code to reflect these changes.
-
-## Why pnpm and Turborepo?
-
-- **pnpm**: Efficient package management, perfect for monorepos. It saves disk space and speeds up installation. [Learn more about pnpm](https://pnpm.io/)
-- **Turborepo**: Optimizes build times by caching and parallel execution. It only rebuilds what's necessary, improving developer experience. [Learn more about Turborepo](https://turbo.build/repo)
 
 ## Troubleshooting
 
