@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/provider",
+  "name": "@repo/provider",
   "version": "0.1.0",
   "private": true,
   "sideEffects": false,
@@ -9,14 +9,14 @@
     ".": "./index.tsx"
   },
   "dependencies": {
-    "@workspace/ui": "workspace:*"
+    "@repo/ui": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18.2.0"
   },
   "devDependencies": {
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "@types/react": "^18.2.61",
     "typescript": "5.5.4"
   }

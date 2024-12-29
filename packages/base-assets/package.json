@@ -1,5 +1,5 @@
 {
-  "name": "@workspace/assets",
+  "name": "@repo/assets",
   "version": "0.1.0",
   "private": true,
   "sideEffects": false,
@@ -11,8 +11,8 @@
     "./icons": "./src/icons.ts"
   },
   "devDependencies": {
-    "@workspace/eslint-config": "workspace:*",
-    "@workspace/typescript-config": "workspace:*",
+    "@repo/eslint-config": "workspace:*",
+    "@repo/typescript-config": "workspace:*",
     "typescript": "^5.0.4"
   }
 }

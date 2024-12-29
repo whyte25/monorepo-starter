@@ -1,6 +1,6 @@
-import { siteConfig } from "@workspace/config";
-import { AppProvider } from "@workspace/provider";
-import "@workspace/ui/styles.css";
+import { siteConfig } from "@repo/config";
+import { AppProvider } from "@repo/provider";
+import "@repo/ui/styles.css";
 import type { Metadata } from "next";
 import { Manrope } from "next/font/google";
 import React from "react";

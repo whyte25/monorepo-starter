@@ -1,5 +1,5 @@
 "use client";
-import { TooltipProvider } from "@workspace/ui/tooltip";
+import { TooltipProvider } from "@repo/ui/tooltip";
 import { ReactNode } from "react";
 import { Toaster } from "sonner";
 import { ReactQueryProvider } from "./react-query-provider";
