@@ -1,5 +1,10 @@
-export * as LogoIcon1 from "../assets/SVG/logo-variant-1.svg";
-export * as LogoIcon2 from "../assets/SVG/logo-variant-2.svg";
-export * as SuccessIcon from "../assets/SVG/success-icon.svg";
-export * as AddIcon from "../assets/SVG/add.svg";
+/**
+ * Base icon assets
+ * These icons are shared across  apps within the monorepo
+ * and serve as the common icon library for maintaining consistent UI elements
+ * across all apps.
+ */
 
+// base icons
+
+// export * as Logo from "../assets/SVG/logo.svg";
