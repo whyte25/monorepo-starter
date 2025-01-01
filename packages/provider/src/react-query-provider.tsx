@@ -14,8 +14,8 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
  * - `refetchOnReconnect`: Always refetch on reconnect (set to `"always"`).
  * - `staleTime`: Queries will never go stale (set to `Number.POSITIVE_INFINITY`).
  *
- * Additionally, the `mutationCache` is configured to automatically invalidate queries
- * after mutations. Instead of manually calling `queryClient.invalidateQueries` after each successful mutation.
+ * Additionally, the `mutationCache` is configured to automatically invalidate queries after mutations.
+ * Instead of manually calling `queryClient.invalidateQueries` after each successful mutation.
  * This is achieved by using the `mutationKey` to efficiently invalidate
  * related queries. Mutations without a key will still invalidate all queries.
  *
@@ -34,13 +34,6 @@ const queryClient = new QueryClient({
       staleTime: Number.POSITIVE_INFINITY,
     },
   },
-  // Automatically invalidate queries after mutations
-  // Instead of manually calling `queryClient.invalidateQueries` after each successful mutation,
-  // we can use `mutationKey` to invalidate related queries efficiently.
-  // For example, using `mutationKey: ['issues']` will invalidate all queries related to 'issues'.
-  // Mutations without a key will still invalidate all queries.
-  // This approach is more efficient for handling invalidation after mutations.
-  // For more details, see: https://tkdodo.eu/blog/automatic-query-invalidation-after-mutations#tie-it-to-the-mutationkey
   mutationCache: new MutationCache({
     onSuccess: (_data, _variables, _context, mutation) => {
       queryClient.invalidateQueries({
